@@ -161,3 +161,41 @@ header{
 .deal-description{
     margin: 25px 0 30px;
 }
+
+/* flower gallery styles */
+.flower-gallery{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 200px;
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+.gallery-title{
+    font-size: 50px;
+    color: #E55473;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.image-container{
+    width: 350px;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img-1{
+    background-image: url('../Flower Asset/gallery-item-1.jpg');
+    margin-bottom: 15px;
+}
+
+.img-2{
+    background-image: url('../Flower Asset/gallery-item-2.jpg');
+    margin-bottom: 15px;
+}
+
+.img-3{
+    background-image: url('../Flower Asset/gallery-item-3.jpg');
+}
