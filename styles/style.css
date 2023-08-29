@@ -217,3 +217,38 @@ header{
 .instagram-image img{
     width: 280px;
 }
+
+/* latest deals styles */
+.latest-deals{
+    margin-bottom: 130px;
+    margin-top: 130px;
+    text-align: center;
+    background-image: url('../Flower Asset/Rectangle 9.png');
+    padding: 120px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.deal-title{
+    margin-bottom: 15px;
+}
+
+.deal-details{
+    margin-bottom: 50px;
+}
+
+.subscribe{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.email{
+    border-radius: 8px;
+    background: #FFF;
+    padding: 20px;
+    border: 0;
+    color: rgba(39, 39, 39, 0.60);
+    width: 40%;
+}
