@@ -30,9 +30,17 @@
     border: none;
 }
 
+.section-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
 /* header section styles */
 header{
     background-color: rgba(229, 84, 115, 0.10);
+    margin-bottom: 150px;
 }
 
 .header-container{
@@ -63,4 +71,46 @@ header{
 
 .header-image img{
     width: 100%;
+}
+
+/* featured flowers styles */
+.featured-description{
+    text-align: center;
+    margin: 25px 0 50px;
+}
+
+.featured-content{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.featured-image{
+    border-radius: 300px 300px 0px 0px;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-bottom: 30px;
+}
+
+.image-1{
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.image-2{
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.image-3{
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.image-title{
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
 }
