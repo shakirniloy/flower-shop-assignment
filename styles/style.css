@@ -199,3 +199,21 @@ header{
 .img-3{
     background-image: url('../Flower Asset/gallery-item-3.jpg');
 }
+
+/* instagram section styles */
+.instagram-info{
+    text-align: center;
+}
+
+.instagram-description{
+    margin: 25px 0 50px;
+}
+
+.instagram-image{
+    display: flex;
+    justify-content: space-between;
+}
+
+.instagram-image img{
+    width: 280px;
+}
