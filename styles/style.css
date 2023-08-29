@@ -189,15 +189,18 @@ header{
 .img-1{
     background-image: url('../Flower Asset/gallery-item-1.jpg');
     margin-bottom: 15px;
+    border-radius: 3px;
 }
 
 .img-2{
     background-image: url('../Flower Asset/gallery-item-2.jpg');
     margin-bottom: 15px;
+    border-radius: 3px;
 }
 
 .img-3{
     background-image: url('../Flower Asset/gallery-item-3.jpg');
+    border-radius: 3px;
 }
 
 /* instagram section styles */
@@ -251,4 +254,33 @@ header{
     border: 0;
     color: rgba(39, 39, 39, 0.60);
     width: 40%;
+}
+
+/* footer styles */
+.footer{
+    background: #111010;
+    padding: 125px 0;
+    text-align: center;
+}
+
+.footer-title{
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer-title-color{
+    color: white;
+}
+
+.footer-description{
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Lato;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 25px 0 30px;
+}
+
+.copyright{
+    color: rgba(255, 255, 255, 0.40);
 }
