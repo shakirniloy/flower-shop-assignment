@@ -138,3 +138,26 @@ header{
     display: block;
     margin: 0 auto 25px;
 }
+
+/* hot deal styles */
+.deal-container{
+    background: rgba(229, 84, 115, 0.05);
+}
+.deal-content{
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+
+.deal-info{
+    padding: 200px 0 150px;
+    text-align: center;
+}
+
+.coloured-title{
+    color: #E55473;
+}
+
+.deal-description{
+    margin: 25px 0 30px;
+}
